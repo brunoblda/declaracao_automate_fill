@@ -73,7 +73,7 @@ class DeclaracaoCtcAutomate:
             f"{self.dict_person['END RESID-LOGRADOURO']} NUMERO: "
             f"{self.dict_person['END RESID-NÚMERO']} COMPLEMENTO: "
             f"{self.dict_person['END RESID-COMPLEMENTO']}"
-            if self.dict_person["END RESID-COMPLEMENTO"]
+            if self.dict_person["END RESID-COMPLEMENTO"] != "0"
             else f"{self.dict_person['END RESID-LOGRADOURO']} NUMERO: "
             f"{self.dict_person['END RESID-NÚMERO']}",
             f"{self.dict_person['END RESID-BAIRRO']} - "
